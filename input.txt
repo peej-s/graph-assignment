@@ -1,0 +1,11 @@
+graph AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
+distance A B C
+distance A D
+distance A D C
+distance A E B C D
+distance A E D
+numRoutesByStops max C C 3 
+numRoutesByStops eq A C 4 
+shortestRoute A C
+shortestRoute B B
+numRoutesByDistance C C 30

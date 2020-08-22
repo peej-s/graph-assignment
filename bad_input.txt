@@ -1,0 +1,14 @@
+graph AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
+distance C F
+distance 9 F
+numRoutesByStops max C C
+numRoutesByStops nothing C C unparseable_int
+shortestRoute A
+shortestRoute 1 E
+shortestRoute A QE
+shortestRoute E A
+numRoutesByDistance A C
+numRoutesByDistance A C F
+numRoutesByDistance A 60 30
+numRoutesByDistance 60 C 30
+nonexistent_function
